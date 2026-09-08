@@ -1,54 +1,57 @@
-Payroll System:
+# Employee Payroll System
 
-This is a Java-based Employee Payroll System designed to manage employee payroll details, salary calculations, and records. It provides a simple interface to add employees, compute salaries, and display stored employee details.
+A Java-based terminal application for managing employee records and calculating payroll information using core object-oriented programming concepts and the Java Collections Framework.
 
-🚀 Features:
+## Problem
 
--> Add new employees -> Store employee salary details -> Compute and display payroll information -> User-friendly terminal-based interface -> Modular Java code structure
+Manual payroll records become difficult to maintain as employee counts grow. This project provides a simple structured workflow for entering employee information, calculating salary details, and retrieving stored records.
 
-🛠 Technologies Used:
+## Features
 
--> Java -> Collections Framework -> OOP Concepts -> File Handling
+- Add employee records
+- Store salary information
+- Calculate and display payroll information
+- Retrieve employee details
+- Console-based interactive workflow
+- Modular Java class structure
 
-📂 Project Structure:
+## Technical Concepts
 
-src/ └── Main.java └── Other related classes (if any)
+- Java
+- Object-Oriented Programming
+- Java Collections Framework
+- File handling
+- Modular class and method design
 
-.idea/ (if using IntelliJ) Employee Payroll System.iml
+## How It Works
 
-▶ How to Run:
+```text
+Employee input
+      ↓
+Employee records
+      ↓
+Payroll calculation
+      ↓
+Formatted payroll output
+```
 
-Open project in any IDE (IntelliJ / Eclipse / NetBeans / VS Code)
-Locate Main.java
-Run the file
-📌 Future Enhancements:
+## Run Locally
 
-You can extend this project in multiple ways:
+Open the project in an IDE such as IntelliJ IDEA, Eclipse, NetBeans, or VS Code, then run `Main.java`.
 
--> Add database support (MySQL / PostgreSQL) -> GUI using Java Swing or JavaFX -> Generate salary slips -> Authentication for administrators
+## Current Scope
 
-🧩 Problem Statement:
+The current implementation is a console application with in-memory collection-based record handling. Database persistence, authentication, a graphical/web interface, and salary-slip generation are natural extensions rather than part of the current scope.
 
-Managing payroll manually becomes inefficient and error-prone when the number of employees grows. Organizations often need a system that can store employee details, compute salaries, and quickly retrieve or update the information. Traditional methods such as maintaining records in files or handwritten documents lead to:
+## Future Improvements
 
--> Miscalculations of salary and deductions -> Difficulty in tracking employee data -> Time-consuming record maintenance -> Lack of centralized information
+- PostgreSQL/MySQL persistence
+- REST API and web interface
+- Administrator authentication
+- Salary-slip generation
+- More detailed payroll and deduction rules
 
-The goal is to build a simple payroll system that helps maintain structured employee information and handle salary calculations in an organized and error-free manner.
+## Author
 
-✔ Solution Approach:
-
-This project provides a structured Java application that manages employee records and calculates payroll efficiently. The solution includes:
-
-Data Collection -> Employees can be entered with relevant details such as name, ID, basic salary, etc.
-
-Payroll Calculation -> Salary components can be computed logically within the program (basic pay, allowances, deductions depending on implementation).
-
-Data Storage in Memory -> Employee entries are stored using Java collections, making retrieval faster and organized.
-
-Modular Code Design -> The code separates responsibilities into individual classes and methods, ensuring clarity and scalability.
-
-Simple Interface -> The system runs in a console environment, allowing step-by-step interaction for adding, displaying, and updating payroll details.
-
-🎯 Outcome:
-
-This project provides: -> Quick employee detail management -> Accurate salary calculations -> Faster retrieval of information -> Reduced manual effort -> Good demonstration of core Java concepts
+**Harsh Shrivastava**  
+[GitHub](https://github.com/Harsh24-j) · [LinkedIn](https://linkedin.com/in/harshshrivastava24)
